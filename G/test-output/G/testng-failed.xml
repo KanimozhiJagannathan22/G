@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [G]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TC_004_AddEditDelete(failed)">
+    <classes>
+      <class name="mainNG.TC_004_AddEditDelete">
+        <methods>
+          <include name="Login"/>
+          <include name="CloseBrowser"/>
+          <include name="deleteEmployee"/>
+          <include name="addEmployee"/>
+          <include name="OpenBrowser"/>
+          <include name="editEmployee"/>
+          <include name="Logout"/>
+        </methods>
+      </class> <!-- mainNG.TC_004_AddEditDelete -->
+    </classes>
+  </test> <!-- TC_004_AddEditDelete(failed) -->
+</suite> <!-- Failed suite [G] -->
